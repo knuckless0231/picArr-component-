@@ -1,0 +1,13 @@
+.space {
+  margin: 0 auto;
+  display: grid;
+  width: auto;
+  grid-template-areas:
+  "h "
+  "m "
+  "f ";
+
+   grid-template-rows:1fr ;
+    grid-template-columns: 1fr;
+   
+}

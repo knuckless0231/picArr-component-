@@ -1,0 +1,129 @@
+/* .picarr{
+    background-color: rgb(61, 158, 248);
+    grid-area: m;
+};
+
+.arrlogos{
+    width: 650px;
+    height: 600px;
+};
+
+.arr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+};
+
+.slider{
+display: flex;
+};
+
+.dotsContainer{
+display: flex;
+justify-content: center;
+};
+
+.rightArrow{
+    cursor: pointer;
+    z-Index: 1;
+    position: absolute;
+    right: 32px;
+    font-Size: 35px;
+    top: 50%;
+    transform: translate(0, -50%);
+};
+
+.leftArrow{
+    cursor: pointer;
+    z-Index: 1;
+    position: absolute;
+    left: 32px;
+    font-Size: 35px;
+    top: 50%;
+    transform: translate(0, -50%);
+};
+
+.dot{
+cursor: pointer
+};
+     */
+
+
+/* .page{
+    color: rgb(61, 158, 248);
+    display: flex;
+    justify-content: center;
+};
+
+.arrblock {
+    
+   
+}
+
+;
+
+.rightArrow {
+    cursor: pointer;
+    color: white;
+    z-Index: 1;
+    position: absolute;
+    right: 32px;
+    font-Size: 35px;
+    top: 50%;
+    transform: translate(0, -50%);
+};
+
+.leftArrow {
+    cursor: pointer;
+     z-Index: 1;
+        position: absolute;
+        left: 32px;
+        font-Size: 35px;
+        top: 50%;
+        transform: translate(0, -50%);}; */
+
+.sliderStyles {
+    position: relative;
+    height: 100%;
+    background-color: rgb(61, 158, 248);
+    grid-area: m; 
+    /* height: 900px;  */
+}
+
+.leftArrow {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    left: 32px;
+    font-Size: 45px;
+    color: white;
+    z-Index: 1;
+    cursor: pointer;
+}
+
+.rightArrow {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    right: 32px;
+    font-Size: 45px;
+    color: white;
+    z-Index: 1;
+    cursor: pointer;
+}
+
+.dotsContainerStyles {
+    display: flex;
+    justify-content: center;
+}
+
+.dotStyle {
+    margin: 0 3px;
+    cursor: pointer;
+    font-Size: 20px;
+}
+
+.arrlogos{
+    width: 150px;
+    height: 200px;
+}

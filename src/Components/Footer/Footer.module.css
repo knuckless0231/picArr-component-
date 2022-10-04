@@ -1,0 +1,17 @@
+.foo {
+    grid-area: f;
+    background-color: rgb(2, 35, 66);
+    max-width: auto;
+
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.foo_click {
+    color: rgb(160, 159, 159);
+    font-weight: bold;
+    text-decoration: none;
+}

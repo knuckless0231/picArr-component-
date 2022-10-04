@@ -1,0 +1,20 @@
+.ol{
+display: flex;
+flex-direction: column;
+list-style-type: none;
+align-items: center;
+padding: 20px;
+color:rgb(73, 160, 163)
+}
+
+.li{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    align-items: center;  
+}
+
+
+.descrtext{
+    font-weight: 600;
+}

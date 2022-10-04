@@ -1,0 +1,26 @@
+.header {
+    grid-area: h;
+    background-color: rgb(2, 35, 66);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.headerLogo {
+    width: 50px;
+    height: 30px;
+    padding: 10px;
+
+}
+
+.headerLogo:hover {
+    cursor: pointer;
+}
+
+.link {
+    color: rgb(160, 159, 159);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+}

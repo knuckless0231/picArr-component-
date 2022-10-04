@@ -1,0 +1,47 @@
+.description {
+    margin-top: 100px;
+    padding: 5px;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+    border-width: 1;
+    border-color: rgb(11, 58, 102);
+    border-style: solid;
+    background-color: rgb(103, 186, 241);
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+.div_border {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.description_upper {
+    margin-bottom: 10px;
+    color: rgb(11, 66, 68);
+    font-weight: bold;
+}
+
+.description_main {
+
+    top: 50%;
+    left: 50%;
+    height: 10%;
+    width: 77%;
+    color: rgb(11, 60, 61);
+    font-weight: 500;
+}
+
+.year {
+    padding: 7px;
+    color: rgb(2, 38, 39);
+    font-weight: 500;   
+}
+
+
+

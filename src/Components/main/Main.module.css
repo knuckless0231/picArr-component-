@@ -1,0 +1,68 @@
+.main {
+
+    grid-area: m;
+    background-color: rgb(61, 158, 248);
+    max-width: auto;
+    padding: 50px;
+   
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+
+.picture {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+
+}
+
+.imgblock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menuicon {
+    color: none;
+    margin-top: 10px;
+    height: 20px;
+    width: 200px;
+
+}
+
+.taplogo {
+    width: 10px;
+    height: 10px;
+    background-color: none;
+    margin-left: 5px;
+
+}
+
+.btcont {
+    margin-top: 10px;
+    height: 20px;
+    width: 200px;
+}
+
+.btmore {
+    background-color: rgb(61, 158, 248);
+    border: none;
+}
+
+.btmore:hover {
+    cursor: pointer;
+}
+
+.element {
+    padding: 10px;
+}
+
+
+
+
+
